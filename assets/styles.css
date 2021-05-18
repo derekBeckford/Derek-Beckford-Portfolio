@@ -32,6 +32,7 @@ header nav ul {
     align-items: center;
     list-style: none;
     padding-top: 10px;
+    font-size: 150%;
 }
 
 header nav ul li a {
@@ -84,8 +85,6 @@ header nav {
     padding-right: 25px;
 }
 
-
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -113,4 +112,33 @@ header nav {
 
 .flex-one {
     width: 99%;
+}
+
+.contactme h2 {
+    float: left;
+    padding-left: 150px;
+    padding-top: 5px;
+}
+
+.contactme ul {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 10px;
+    list-style-type: none;
+    border-left: solid #1f1958 3px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+
+.contactme ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-underline-position: under;
+    width: 1005;
+    padding-left: 100px;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 150%;
 }
