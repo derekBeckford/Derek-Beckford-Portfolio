@@ -45,8 +45,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: gray;
-    color: white;
+    background: #748dcd;
+    color: black;
     border-radius: 15px;
     text-shadow: none;
 }
@@ -55,7 +55,7 @@ header nav {
     float: right;
 }
 
-.image {
+.image1 {
     background-image: url(https://wallpaperaccess.com/full/187161.jpg);
     width: 100%;
     height: 200px;
@@ -99,19 +99,59 @@ header nav {
 .flex-item {
     width: 49%;
     border: 4px solid #748dcd;
-    background-image: url(https://www.summitbsa.org/wp-content/uploads/2019/10/placeholder.png);
+    opacity: 5;
+    overflow: hidden;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 10px;
     background-size: cover;
     background-position: center;
-    padding: 50px;
     min-height: 50px;
     flex-direction: column;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    background-color: #748dcd;
 }
 
-.flex-one {
-    width: 99%;
+.projects {
+    position: absolute;
+    overflow: hidden;
+    font-weight: bold;
+    display: inline-block;
+    bottom: 20px;
+    background-color: #748dcd;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.projects h3 {
+    font-size: 2vw;
+}
+
+.projects p {
+    font-size: 1.0vw;
+}
+
+.comingsoon:hover{
+    opacity: .65;
+    background-color: #748dcd;
+}
+
+img {
+    opacity: 1;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: absolute;
 }
 
 .contactme h2 {
