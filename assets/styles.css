@@ -289,7 +289,16 @@ img {
 
 @media screen and (max-width: 768px) {
     .contactme ul {
-        display: none;
+        display: initial;
         font-size: 80px;
+    }
+    body {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 575px){
+    body {
+        font-size: large;
     }
 }
