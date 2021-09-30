@@ -17,7 +17,9 @@
   ## Description   
   📝
   
-  This is my new and improved portfolio that integrates react
+  This is my new and improved portfolio that integrates react.
+  
+  https://derek-beckford-portfolio.herokuapp.com/
 
   ## Usage 
   💻
