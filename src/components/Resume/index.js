@@ -1,7 +1,14 @@
 import React from "react";
+import resume from "../../assets/resume/Resume_SD.pdf";
 
 function Resume() {
-  return <h1>Coming Soon!</h1>;
+  return (
+    <span>
+      <iframe src={resume} className="resume">
+        Here
+      </iframe>
+    </span>
+  );
 }
 
 export default Resume;

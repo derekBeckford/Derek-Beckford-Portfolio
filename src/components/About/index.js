@@ -1,24 +1,20 @@
 import React from "react";
 
-
 function About() {
   return (
     <section id="aboutme" class="aboutme">
       <h2>About Me</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Nibh praesent
-        tristique magna sit amet purus. Nisl vel pretium lectus quam. Vel quam
-        elementum pulvinar etiam non quam. Vitae proin sagittis nisl rhoncus
-        mattis rhoncus urna. Quam elementum pulvinar etiam non quam lacus
-        suspendisse faucibus. Urna nunc id cursus metus aliquam eleifend mi in
-        nulla. Gravida rutrum quisque non tellus orci ac auctor augue. Est velit
-        egestas dui id ornare arcu odio. Quisque egestas diam in arcu cursus
-        euismod. Augue mauris augue neque gravida in fermentum. Scelerisque
-        purus semper eget duis at tellus. Venenatis tellus in metus vulputate
-        eu. Tempor orci eu lobortis elementum. Sed turpis tincidunt id aliquet
-        risus feugiat. Mattis nunc sed blandit libero volutpat sed cras ornare
-        arcu. Pharetra et ultrices neque ornare aenean.
+        A full-stack web developer with a Master's level education in Social
+        Work. I Recently earned a certificate in full-stack development from the
+        University of Texas at Austin, with newly developed skills in
+        JavaScript, CSS, React.js, and responsive web design. With each project,
+        I aim to facilitate the user's engagement with software that is easily
+        accessible and optimal to increase user satisfaction. During my time in
+        the Bootcamp, I was able to learn and have hands-on experience in
+        creating dynamic web applications that are following pace with industry
+        standards. I’m excited to leverage my skills as part of a fast-paced,
+        quality-driven team to build better experiences on the web.
       </p>
     </section>
   );

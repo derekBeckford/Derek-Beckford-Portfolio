@@ -29,9 +29,11 @@ function App() {
         <div class="image1"></div>
       </div>
       <main>
-        {currentCategory.name === "about" ? (
+        {currentCategory.name === "about" ? 
+        (
           <About></About>
-        ) : currentCategory.name === "portfolio" ? (
+        ) : currentCategory.name === "portfolio" ? 
+        (
           <Portfolio></Portfolio>
         ) : currentCategory.name === "contact me" ? (
           <ContactForm></ContactForm>
