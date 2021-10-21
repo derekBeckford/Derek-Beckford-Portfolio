@@ -4,14 +4,12 @@ import Header from "./components/Header";
 import About from "./components/About";
 import profilePicture from "./assets/profile-picture/profile-picture.jpg";
 import Portfolio from "./components/portolio";
-import ContactForm from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
   const [categories] = useState([
     { name: "about", description: "About me" },
     { name: "portfolio", description: "My coding portfolio" },
-    { name: "contact me", description: "Contact Me" },
     { name: "resume", description: "My Resume" },
   ]);
 
@@ -35,8 +33,6 @@ function App() {
         ) : currentCategory.name === "portfolio" ? 
         (
           <Portfolio></Portfolio>
-        ) : currentCategory.name === "contact me" ? (
-          <ContactForm></ContactForm>
         ) : currentCategory.name === "resume" ? (
           <Resume></Resume>
         ) : (

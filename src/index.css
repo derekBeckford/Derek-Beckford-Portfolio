@@ -91,7 +91,7 @@ header nav {
 
 /* portfolio  */
 
-.container {
+.container-wrapper {
   float: left;
   width: 33.33%;
   padding: 5px;
@@ -166,7 +166,6 @@ header nav {
 #contact-form {
   padding: 30px;
 }
-
 
 .resume {
   width: 1920px;
