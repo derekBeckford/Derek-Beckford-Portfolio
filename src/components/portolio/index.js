@@ -13,20 +13,33 @@ function Portfolio() {
             className="project"
             alt="Project Park Time"
           />
+          <div class="image_overlay">
+            <div class="image_title">Parktime 2.0</div>
+          </div>
         </a>
       </div>
       <div className="container">
         <a href="https://derekbeckford.github.io/weather-weekly/">
           <img
             src={weeklyWeatherPicture}
-            className="project2"
+            className="project"
             alt="Project Weekly Weather"
           />
+          <div class="image_overlay">
+            <div class="image_title">Weekly Weather</div>
+          </div>
         </a>
       </div>
       <div className="container">
         <a href="https://pure-chamber-70764.herokuapp.com/">
-          <img src={lpPulse} className="project2" alt="LP Pulse" />
+          <img
+            src={lpPulse}
+            alt="LP Pulse"
+            className="project"
+          />
+          <div class="image_overlay">
+            <div class="image_title">LP Pulse</div>
+          </div>
         </a>
       </div>
     </section>

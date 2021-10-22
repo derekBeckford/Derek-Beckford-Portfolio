@@ -92,28 +92,41 @@ header nav {
 /* portfolio  */
 
 .container-wrapper {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+  display: Flex;
 }
 
 .project {
   display: block;
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   padding: 5px;
 }
 
-.project2 {
-  height: 50%;
-  width: 50%;
-  padding: 5px;
+.container {
+  position: relative;
+  width: 30%;
 }
 
-.work::after {
-  content: "";
-  clear: both;
-  display: table;
+.image_overlay {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(116, 141, 205, 0.6);
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.25s;
+}
+
+.image_overlay:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 /*  */
