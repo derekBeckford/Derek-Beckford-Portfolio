@@ -20,6 +20,9 @@
   This is my new and improved portfolio that integrates react.
   
   https://derek-beckford-portfolio.herokuapp.com/
+  
+  ![image](https://user-images.githubusercontent.com/82908627/142465199-1088a074-5a0e-4ba8-95c8-ae85ee3db4c4.png)
+
 
   ## Usage 
   💻
