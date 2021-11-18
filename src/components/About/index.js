@@ -14,7 +14,8 @@ function About() {
         the Bootcamp, I was able to learn and have hands-on experience in
         creating dynamic web applications that are following pace with industry
         standards. I’m excited to leverage my skills as part of a fast-paced,
-        quality-driven team to build better experiences on the web.
+        quality-driven team to build better experiences on the web. Feel free to email me
+        at dbeck1207@gmail.com.
       </p>
     </section>
   );
