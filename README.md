@@ -6,7 +6,7 @@
 
   - [Description](#description)
   - [Installation](#installation)
-  - [Usage](#usage)
+  - [User Instructions](#userinstructions)
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
@@ -20,11 +20,14 @@
   This is my new and improved portfolio that integrates react.
   
   https://derek-beckford-portfolio.herokuapp.com/
+  
+  ![image](https://user-images.githubusercontent.com/82908627/142465199-1088a074-5a0e-4ba8-95c8-ae85ee3db4c4.png)
 
-  ## Usage 
+
+  ## User Instructions
   💻
   
-  Future employers!
+  Navigate from a react responsive page to view my story, some of my projects, and my resume. 
 
   ##  License 
   ![badge](https://img.shields.io/badge/license-npm-brightgreen) </br>
