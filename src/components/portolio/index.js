@@ -16,7 +16,7 @@ function Portfolio() {
           <div class="image_overlay">
             <div class="image_title">Parktime 2.0</div>
             <a href="https://parktime-2.herokuapp.com/">Link</a>
-            <a href="https://github.com/TimPrimmer/parktime-app">Github</a>
+            <a href="https://github.com/TimPrimmer/parktime-app">GitHub</a>
           </div>
         </a>
       </div>
@@ -30,7 +30,7 @@ function Portfolio() {
           <div class="image_overlay">
           <div class="image_title">Weekly Weather</div>
           <a href="https://derekbeckford.github.io/weather-weekly/">Link</a>
-          <a href="https://github.com/derekBeckford/weather-weekly">Github</a>
+          <a href="https://github.com/derekBeckford/weather-weekly">GitHub</a>
           </div>
         </a>
       </div>
@@ -44,7 +44,7 @@ function Portfolio() {
           <div class="image_overlay">
           <div class="image_title">LP Pulse</div>
           <a href="https://pure-chamber-70764.herokuapp.com/">Link</a>
-          <a href="https://github.com/danielolvera21/Muzik">Github</a>
+          <a href="https://github.com/danielolvera21/Muzik">GitHub</a>
           </div>
         </a>
       </div>
